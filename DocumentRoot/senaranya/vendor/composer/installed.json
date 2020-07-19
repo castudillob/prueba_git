@@ -1,0 +1,53 @@
+[
+    {
+        "name": "aranyasen/hl7",
+        "version": "1.9.1",
+        "version_normalized": "1.9.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/senaranya/HL7.git",
+            "reference": "fc7e6bd79485e96264c3fc5a0bf0c6cc7c636b1d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/senaranya/HL7/zipball/fc7e6bd79485e96264c3fc5a0bf0c6cc7c636b1d",
+            "reference": "fc7e6bd79485e96264c3fc5a0bf0c6cc7c636b1d",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "ext-sockets": "*",
+            "php": ">=7.2"
+        },
+        "require-dev": {
+            "dms/phpunit-arraysubset-asserts": "^0.1.0",
+            "ext-pcntl": "*",
+            "phpunit/phpunit": "^8"
+        },
+        "time": "2020-07-04T12:01:13+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Aranyasen\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aranya Sen",
+                "email": "sen.aranya@gmail.com",
+                "role": "Owner"
+            }
+        ],
+        "description": "HL7 parser, generator and sender."
+    }
+]
